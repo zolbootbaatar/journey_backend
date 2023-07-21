@@ -9,9 +9,21 @@ const ItemsSchema = new mongoose.Schema(
       type: String,
       default: "no-photo.jpg",
     },
+    type: {
+      type: String,
+    },
+    latlng: {
+      type: String,
+    },
     description: {
       type:String,
       required:true,
+    },
+    price: {
+      type: String, 
+    },
+    downloads: {
+      type: String,
     },
     range: {
       type: String,

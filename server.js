@@ -25,6 +25,13 @@ const db = require("./config/db-mysql");
 
 const app = express();
 
+var admin = require("firebase-admin");
+var credentials = require('./credentials.json');
+
+admin.initializeApp({
+  credential: admin.credential.cert(credentials)
+});
+
 connectDB();
 
 // create a write stream (in append mode)

@@ -18,7 +18,7 @@ router.route("/:categoryId/items").get(getCategoryItems);
 router
   .route("/")
   .get(getCategories)
-  .post( createCategory);
+  .post(createCategory);
 
 router
   .route("/:id")

@@ -47,7 +47,7 @@ exports.getCategoryItems = asyncHandler(async (req, res, next) => {
   //req.query, select
   const items = await Items.find(
     { ...req.query, category: req.params.categoryId },
-    select
+
   )
     .sort(sort)
     .skip(pagination.start - 1)
@@ -101,18 +101,18 @@ exports.createItems = asyncHandler(async (req, res, next) => {
 });
 
 exports.deleteItems = asyncHandler(async (req, res, next) => {
-  const Items = await Items.findById(req.params.id);
+  const items = await Items.findById(req.params.id);
 
-  if (!Items) {
+  if (!items) {
     throw new MyError(req.params.id + " ID-тэй ном байхгүй байна.", 404);
   }
 
 
-  Items.remove();
+  items.remove();
 
   res.status(200).json({
     success: true,
-    data: Items
+    data: items
   });
 });
 

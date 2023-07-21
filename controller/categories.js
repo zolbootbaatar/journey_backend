@@ -26,11 +26,6 @@ exports.getCategories = asyncHandler(async (req, res, next) => {
 });
 
 exports.getCategory = asyncHandler(async (req, res, next) => {
-  const t = await req.db.teacher.findByPk(1);
-
-  const c = await t.getCourses();
-
-  console.log(c);
 
   const category = await Category.findById(req.params.id).populate("items");
 
