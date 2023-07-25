@@ -12,6 +12,18 @@ const ItemsSchema = new mongoose.Schema(
     type: {
       type: String,
     },
+    contractPhone: {
+      type: String,
+    },
+    contractEmail: {
+      type: String,
+    },
+    appName: {
+      type: String,
+    },
+    hours: {
+      type: String,
+    },
     latlng: {
       type: String,
     },
