@@ -24,10 +24,10 @@ const ItemsSchema = new mongoose.Schema(
     hours: {
       type: String,
     },
-    latlngx: {
+    latitude: {
       type: String,
     },
-    latlngy: {
+    longitude: {
       type: String,
     },
     description: {
