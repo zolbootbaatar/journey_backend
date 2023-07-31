@@ -21,7 +21,10 @@ const ItemsSchema = new mongoose.Schema(
       type: String,
       default: "no-photo.jpg",
     },
-    nearby_place: {
+    nearby_place_1: {
+      type: String
+    },
+    nearby_place_2: {
       type: String
     },
     type: {
