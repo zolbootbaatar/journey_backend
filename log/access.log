@@ -2376,3 +2376,7 @@
 ::ffff:192.168.1.7 - - [31/Jul/2023:12:46:01 +0000] "GET /api/v1/categories/6496d03fdebe24201d8c7239/items HTTP/1.1" 200 757 "-" "Dart/2.19 (dart:io)"
 ::ffff:192.168.1.7 - - [31/Jul/2023:12:46:01 +0000] "GET /api/v1/categories/6496d050debe24201d8c723b/items HTTP/1.1" 200 3245 "-" "Dart/2.19 (dart:io)"
 ::ffff:192.168.1.7 - - [31/Jul/2023:12:46:01 +0000] "GET /api/v1/categories/6496d049debe24201d8c723a/items HTTP/1.1" 200 1670 "-" "Dart/2.19 (dart:io)"
+::ffff:192.168.1.7 - - [31/Jul/2023:13:06:26 +0000] "GET /api/v1/categories/6496d049debe24201d8c723a/items HTTP/1.1" 200 1670 "-" "Dart/2.19 (dart:io)"
+::ffff:192.168.1.7 - - [31/Jul/2023:13:10:31 +0000] "GET /api/v1/categories/6496d050debe24201d8c723b/items HTTP/1.1" 200 3245 "-" "Dart/2.19 (dart:io)"
+::ffff:192.168.1.7 - - [31/Jul/2023:13:12:05 +0000] "GET /api/v1/categories/6496d050debe24201d8c723b/items?name=Aaruul HTTP/1.1" 200 889 "-" "Dart/2.19 (dart:io)"
+::ffff:192.168.1.7 - - [31/Jul/2023:13:12:23 +0000] "GET /api/v1/categories/6496d050debe24201d8c723b/items HTTP/1.1" 200 3245 "-" "Dart/2.19 (dart:io)"

@@ -9,6 +9,21 @@ const ItemsSchema = new mongoose.Schema(
       type: String,
       default: "no-photo.jpg",
     },
+    land_photo_1: {
+      type: String,
+      default: "no-photo.jpg",
+    },
+    land_photo_2: {
+      type: String,
+      default: "no-photo.jpg",
+    },
+    land_photo_3: {
+      type: String,
+      default: "no-photo.jpg",
+    },
+    nearby_place: {
+      type: String
+    },
     type: {
       type: String,
     },
@@ -22,6 +37,12 @@ const ItemsSchema = new mongoose.Schema(
       type: String,
     },
     hours: {
+      type: String,
+    },
+    plane: {
+      type: String,
+    },
+    bus: {
       type: String,
     },
     latitude: {
