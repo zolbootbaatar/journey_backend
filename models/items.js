@@ -21,6 +21,10 @@ const ItemsSchema = new mongoose.Schema(
       type: String,
       default: "no-photo.jpg",
     },
+    city: {
+      type: String,
+      default: "no-photo.jpg",
+    },
     nearby_place_1: {
       type: String
     },
